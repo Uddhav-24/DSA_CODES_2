@@ -1,3 +1,5 @@
+//CODE TO SORT AN INTEGER ARRAY
+
 import java.util.Arrays;
 
 class GFG {

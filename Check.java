@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-class GFG {
+class Check {
     public static void main(String args[])
     {
         int[] arr = { 5, -2, 23, 7, 87, -42, 509 };

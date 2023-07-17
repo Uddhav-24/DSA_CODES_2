@@ -1,0 +1,32 @@
+// PROBLEM: Maximum Product Subarray
+
+
+//PROBLEM LINK: https://leetcode.com/problems/maximum-product-subarray/description/
+
+
+// PLATFORM: LEETCODE
+
+
+// DIFFICULTY: MEDIUM
+
+
+class Solution {
+
+
+    //Change the CLASS NAME
+
+
+    public int maxProduct(int[] nums) {
+
+        int prod1 = nums[0], prod2 = nums[0], result = nums[0];
+
+        for(int i = 1; i<nums.length; i++){
+            int temp = Math.max(nums[i],Math.max(prod1*nums[i],prod2*nums[i]));
+            prod2 = Math.min(nums[i],Math.min(prod1*nums[i],prod2*nums[i]));
+            prod1 = temp;
+
+            result = Math.max(result, prod1);
+        }
+        return result;
+    }
+}

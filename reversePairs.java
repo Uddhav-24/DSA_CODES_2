@@ -7,7 +7,7 @@
 // PLATFORM: LEETCODE
 
 
-// DIFFICULTY: MEDIUM
+// DIFFICULTY: HARD
 
 
 class Solution {

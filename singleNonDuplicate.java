@@ -1,10 +1,10 @@
 // PROBLEM: Single Element in a Sorted Array
 
 
-//PROBLEM LINK: https://leetcode.com/problems/single-element-in-a-sorted-array/description/
+//PROBLEM LINK: https://leetcode.com/problems/single-element-in-a-sorted-array/
 
 
-// PLATFORM: LETTCODE
+// PLATFORM: LEETCODE
 
 
 // DIFFICULTY: MEDIUM
